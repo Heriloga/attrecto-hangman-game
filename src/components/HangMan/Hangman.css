@@ -1,0 +1,17 @@
+path,
+circle {
+  stroke: #707070;
+  stroke-width: 0.1;
+  stroke-linecap: round;
+  fill: non;
+}
+
+svg {
+  width: 20rem;
+}
+
+@media only screen and (max-width: 800px) {
+  svg {
+    width: calc(5rem + 10vh);
+  }
+}
