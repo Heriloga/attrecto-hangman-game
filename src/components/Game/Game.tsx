@@ -38,7 +38,7 @@ export default function Game(): ReactElement {
           currentWord
             .toUpperCase()
             .split("")
-            .map((letter, index) => (
+            .map((_letter, index) => (
               <span key={index}>
                 {" "}
                 {indexesFound.includes(index)
