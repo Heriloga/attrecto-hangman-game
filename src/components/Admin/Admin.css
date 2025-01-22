@@ -1,0 +1,56 @@
+#admin {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  align-items: center;
+}
+#admin h1 {
+  font-size: calc(2rem + 0.5vw);
+  color: rgba(0, 0, 0, 0.65);
+}
+#admin #input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#admin #input input {
+  font-size: calc(1.2rem + 0.5vw);
+}
+#admin #input h2 {
+  font-size: calc(0.65rem + 0.5vw);
+  text-align: left;
+  font-weight: normal;
+}
+#admin #content-wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 20rem;
+  width: 60rem;
+}
+#admin #words {
+}
+
+#admin .word {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  margin: 0.11rem 1rem;
+  text-align: center;
+  width: 8rem;
+}
+#admin button {
+  border-radius: 10px;
+  border-color: rgb(64 172 222);
+}
+
+@media only screen and (max-width: 800px) {
+  #admin #words {
+  }
+
+  #admin #content-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
