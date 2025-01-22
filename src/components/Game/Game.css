@@ -1,0 +1,49 @@
+#game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#game #gameState {
+  height: 3rem;
+}
+#game #letters {
+  width: 30rem;
+  height: 5rem;
+}
+
+#game #buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+#game #buttons button {
+  width: 80%;
+  margin: 0.5rem;
+}
+#game .title {
+  font-size: calc(0.1rem * 1vw);
+}
+
+#game h1 {
+  font-size: calc(1.6rem + 1.4vw);
+}
+
+#game .victory-color {
+  color: green;
+}
+#game .defeat-color {
+  color: red;
+}
+
+@media only screen and (max-width: 800px) {
+  #game #letters {
+    width: 100%;
+    height: 5rem;
+    margin-bottom: 2rem;
+  }
+}
