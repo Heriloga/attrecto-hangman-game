@@ -1,0 +1,46 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border: 1px solid black;
+  padding: 0.6em;
+  margin: 0.1em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: black;
+  outline: none;
+  background-color: white;
+}
+button:hover {
+  background-color: rgb(64 172 222);
+}
+button:focus,
+button:focus-visible {
+  background-color: rgb(64 172 222);
+  color: white;
+}
+button:disabled {
+  color: rgb(173, 173, 173);
+  border-color: rgb(173, 173, 173);
+}
+
+.button-primary {
+  background-color: rgb(64 172 222);
+  color: white;
+}
