@@ -30,7 +30,7 @@ export default function Game(): ReactElement {
           </button>
         </div>
         <div id="words">
-          {words.map((word, index) => (
+          {words.map((word) => (
             <div className="word" key={word}>
               <span>{word}</span>
             </div>

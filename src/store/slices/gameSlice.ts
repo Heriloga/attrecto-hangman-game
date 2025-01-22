@@ -216,7 +216,7 @@ export const gameSlice = createSlice({
         return;
       }
 
-      let playedLetter = action.payload.letter.toLowerCase();
+      const playedLetter = action.payload.letter.toLowerCase();
 
       state.letters.forEach((l) => {
         if (l.letter.toLowerCase() === playedLetter) {
@@ -230,14 +230,14 @@ export const gameSlice = createSlice({
       state.lettersPlayed = [...state.lettersPlayed, playedLetter];
 
       const currentWord = state.currentWord.toLowerCase();
-      let indexes: number[] = [];
+      const indexes: number[] = [];
 
       currentWord.split("").findIndex((l, i) => {
         if (l == playedLetter) {
           indexes.push(i);
         }
       });
-      let foundLetter = {
+      const foundLetter = {
         index: indexes,
         letter: playedLetter,
       } as LetterFound;
