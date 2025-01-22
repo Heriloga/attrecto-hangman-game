@@ -1,7 +1,7 @@
 # Attrecto Game
 
 - `npm i` to install dependencies
-- `npm run dev` to start development server at [@vitejs/plugin-react](http://localhost:5173/)
+- `npm run dev` to start development server at [http://localhost:5173/](http://localhost:5173/)
 - `npm run build` to build application
 
 Tested runtime:
